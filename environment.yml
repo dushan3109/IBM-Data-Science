@@ -1,0 +1,17 @@
+name: ibm-ds
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - sqlalchemy
+  - pip
+  - pip:
+      - notebook # ensures latest JS front‑end
